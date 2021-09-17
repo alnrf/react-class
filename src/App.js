@@ -1,18 +1,24 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="container">
-      <div className="topo box">
+      <div className="topo ">
         <Navbar />
       </div>
-      <div className="sidebar box">
-        <Sidebar />
+      <div className="contentContainer">
+        <div className="sidebar ">
+          <Sidebar />
+        </div>
+        <div className="conteudo ">Aqui é o conteúdo</div>
       </div>
-      <div className="conteudo box">Área de Conteúdo</div>
-      <div className="rodape rodapeText">Rodapé</div>
+
+      <div className="rodape ">
+        <Footer />
+      </div>
     </div>
   );
 }

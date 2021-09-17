@@ -1,0 +1,33 @@
+.sideComponent {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.menuItem {
+  display: flex;
+  text-align: left;
+  margin: 8px 0 0 0;
+}
+
+.menuItem:nth-child(1) {
+  margin: 0;
+}
+
+.menuItem a {
+  text-decoration: none;
+  text-decoration-color: black;
+  color: black;
+}
+
+.menuItem a:hover {
+  text-decoration: none;
+  text-decoration-color: black;
+  color: black;
+  font-weight: 600;
+}

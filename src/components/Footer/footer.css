@@ -1,0 +1,11 @@
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 30px;
+  padding: 1em;
+}
+
+.footerContainer span {
+  color: white;
+}
