@@ -1,0 +1,64 @@
+.postalContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  margin: 16px;
+}
+
+.title span {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+}
+
+.search {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 2px 2px 13px 4px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 2px 2px 13px 4px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 2px 2px 13px 4px rgba(0, 0, 0, 0.29);
+  margin: 32px 0 0 0;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 16px 0;
+}
+
+.wrapLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 8px 24px 8px 24px;
+}
+
+.label {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: normal;
+  padding: 0 0 0 8px;
+}

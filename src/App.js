@@ -2,6 +2,8 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
+import PostalCode from "./pages/PostalCode/PostalCode";
 
 function App() {
   return (
@@ -13,7 +15,10 @@ function App() {
         <div className="sidebar ">
           <Sidebar />
         </div>
-        <div className="conteudo ">Aqui é o conteúdo</div>
+        <div className="conteudo">
+          <Home />
+          {/* <PostalCode /> */}
+        </div>
       </div>
 
       <div className="rodape ">

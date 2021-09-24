@@ -1,0 +1,13 @@
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  width: 70%;
+  height: auto;
+}
