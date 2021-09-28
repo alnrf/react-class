@@ -8,6 +8,8 @@
 }
 
 .image {
-  width: 70%;
-  height: auto;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
