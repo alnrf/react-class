@@ -6,7 +6,7 @@ function PostalCode() {
     <div className="postalContainer">
       <div className="header">
         <div className="title">
-          <h2>Pesquisa de CEP</h2>
+          <span>Pesquisa de CEP</span>
         </div>
         <div className="search">
           <input type="text" />

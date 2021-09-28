@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import PostalCode from "./pages/PostalCode/PostalCode";
+import ListParticipant from "./pages/ListParticipant/ListParticipant";
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
           <Sidebar />
         </div>
         <div className="conteudo">
-          <Home />
+          {/* <Home /> */}
           {/* <PostalCode /> */}
+          <ListParticipant />
         </div>
       </div>
 
