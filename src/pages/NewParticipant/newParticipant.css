@@ -1,0 +1,41 @@
+.partContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.partHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.partTitle {
+  display: flex;
+  margin: 16px;
+}
+
+.partTitle span {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+}
+
+.partContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.partWrapLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 8px 24px 8px 24px;
+}
+
+.label {
+  width: 40px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+  padding: 0 8px 0 0;
+}

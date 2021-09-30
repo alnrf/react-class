@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "6154e8cabcd7588caa55110d",
+    "name": "Soto Hopper",
+    "email": "Soto.Hopper@email.com",
+    "CPF": 33533843177,
+    "status": "Ativo",
+    "type": "Cliente"
+  },
+  {
+    "_id": "6154e8ca29a46fe39ee04208",
+    "name": "Estes Noble",
+    "email": "Estes.Noble@email.com",
+    "CPF": 96540001501,
+    "status": "Inativo",
+    "type": "Cliente"
+  },
+  {
+    "_id": "6154e8ca95275caecc9d4fc1",
+    "name": "Emily Nash",
+    "email": "Emily.Nash@email.com",
+    "CPF": 58832112841,
+    "status": "Ativo",
+    "type": "Usuário"
+  },
+  {
+    "_id": "6154e8cacccda032cd9efaba",
+    "name": "Baker Boyd",
+    "email": "Baker.Boyd@email.com",
+    "CPF": 86801079742,
+    "status": "Inativo",
+    "type": "Cliente"
+  },
+  {
+    "_id": "6154e8caf5f4b53764058562",
+    "name": "Middleton Roth",
+    "email": "Middleton.Roth@email.com",
+    "CPF": 50089474393,
+    "status": "Ativo",
+    "type": "Funcionário"
+  },
+  {
+    "_id": "6154e8caf031e2f2f9984a51",
+    "name": "Ingrid Slater",
+    "email": "Ingrid.Slater@email.com",
+    "CPF": 93982183500,
+    "status": "Inativo",
+    "type": "Funcionário"
+  },
+  {
+    "_id": "6154e8ca8e89a626a5beb3cd",
+    "name": "Elinor Watson",
+    "email": "Elinor.Watson@email.com",
+    "CPF": 76773581364,
+    "status": "Inativo",
+    "type": "Cliente"
+  }
+]

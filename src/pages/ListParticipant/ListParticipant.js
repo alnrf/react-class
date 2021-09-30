@@ -1,5 +1,6 @@
 import React from "react";
 import "./listParticipant.css";
+import users from "../../utils/mocks/users.json";
 
 function ListParticipant() {
   return (
@@ -10,28 +11,34 @@ function ListParticipant() {
         </div>
       </div>
       <div className="listContent">
-        <div className="resultCard">
-          <div className="wrapLine">
-            <span className="label">ID:</span>
-            <span className="text">81320-180</span>
+        {users.map((item) => (
+          <div className="resultCard" key={item._id}>
+            <div className="wrapLine">
+              <span className="label">ID:</span>
+              <span className="text">{item._id}</span>
+            </div>
+            <div className="wrapLine">
+              <span className="label">Nome:</span>
+              <span className="text">{item.name}</span>
+            </div>
+            <div className="wrapLine">
+              <span className="label">Email:</span>
+              <span className="text">{item.email}</span>
+            </div>
+            <div className="wrapLine">
+              <span className="label">CPF:</span>
+              <span className="text">{item.CPF}</span>
+            </div>
+            <div className="wrapLine">
+              <span className="label">Status:</span>
+              <span className="text">{item.status}</span>
+            </div>
+            <div className="wrapLine">
+              <span className="label">Tipo:</span>
+              <span className="text">{item.type}</span>
+            </div>
           </div>
-          <div className="wrapLine">
-            <span className="label">Nome:</span>
-            <span className="text">Rua 123</span>
-          </div>
-          <div className="wrapLine">
-            <span className="label">CPF:</span>
-            <span className="text">Vila 123</span>
-          </div>
-          <div className="wrapLine">
-            <span className="label">Status:</span>
-            <span className="text">Curitiba</span>
-          </div>
-          <div className="wrapLine">
-            <span className="label">Tipo:</span>
-            <span className="text">PR</span>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );

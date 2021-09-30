@@ -5,6 +5,8 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import PostalCode from "./pages/PostalCode/PostalCode";
 import ListParticipant from "./pages/ListParticipant/ListParticipant";
+import NewParticipant from "./pages/NewParticipant/NewParticipant";
+import SearchParicipant from "./pages/SearchParticipant/SearchParicipant";
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
         <div className="conteudo">
           {/* <Home /> */}
           {/* <PostalCode /> */}
-          <ListParticipant />
+          {/* <ListParticipant /> */}
+          {/* <NewParticipant /> */}
+          <SearchParicipant />
         </div>
       </div>
 
