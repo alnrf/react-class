@@ -1,21 +1,23 @@
 import React from "react";
 import "./sidebar.css";
 
+import { Link } from "react-router-dom";
+
 function Sidebar() {
   return (
     <div className="sideComponent">
       <div className="menuList">
         <div className="menuItem">
-          <a href="/">CEP</a>
+          <Link to="/cep">CEP</Link>
         </div>
         <div className="menuItem">
-          <a href="/">Cadastrar Participante</a>
+          <Link to="/new">Cadastrar Participante</Link>
         </div>
         <div className="menuItem">
-          <a href="/">Listar Participantes</a>
+          <Link to="/list">Listar Participantes</Link>
         </div>
         <div className="menuItem">
-          <a href="/">Buscar Participante</a>
+          <Link to="/search">Buscar Participante</Link>
         </div>
       </div>
     </div>
